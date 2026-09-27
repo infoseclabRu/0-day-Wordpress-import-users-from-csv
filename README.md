@@ -9,6 +9,7 @@
 ## Credits
 
 Research by **infoseclab.ru** — a team of Russian cybersecurity practitioners
+
 **Contact:**
 - Website: https://infoseclab.ru
 - Telegram: https://t.me/infoseclab.ru
