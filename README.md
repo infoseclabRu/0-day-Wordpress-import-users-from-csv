@@ -8,7 +8,7 @@
 
 ## Credits
 
-Research by **infoseclab.ru** — hands-on infosec team for fintech, manufacturing, and government.
+Research by **infoseclab.ru** — a team of Russian cybersecurity practitioners
 **Contact:**
 - Website: https://infoseclab.ru
 - Telegram (24/7): @infosecslab
