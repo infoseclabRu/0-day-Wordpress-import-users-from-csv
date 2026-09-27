@@ -11,7 +11,7 @@
 Research by **infoseclab.ru** — a team of Russian cybersecurity practitioners
 **Contact:**
 - Website: https://infoseclab.ru
-- Telegram (24/7): @infosecslab
+- Telegram: https://t.me/infoseclab.ru
 ---
 
 ## Summary
