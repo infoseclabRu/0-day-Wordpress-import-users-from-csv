@@ -126,7 +126,7 @@ Look for:
 ## References
 
 - Wordfence Threat Intelligence — CVE request submitted.
-- NVD — CVE not yet assigned.
+- NVD — CVE request submitted.
 
 ---
 
