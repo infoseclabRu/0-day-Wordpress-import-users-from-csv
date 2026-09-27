@@ -75,15 +75,6 @@ This leads to full site compromise, including arbitrary PHP code execution via t
 
 ---
 
-## Timeline
-
-- **18.07.2026** — Vendor notified.
-- **18.07.2026 — …** — No response from vendor.
-- **—** — CVE request submitted to Wordfence Threat Intelligence.
-- **2026-09-28** — Advisory published without PoC.
-
----
-
 ## Workarounds
 
 Until a patch is available:
