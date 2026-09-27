@@ -6,18 +6,23 @@
 **CVSS v3.1:** 7.2 (High)  
 **Vector:** `CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H`
 
+## Credits
+
+Research by **infoseclab.ru** — hands-on infosec team for fintech, manufacturing, and government.
+**Contact:**
+- Website: https://infoseclab.ru
+- Telegram (24/7): @infosecslab
 ---
 
 ## Summary
+<img width="1600" height="766" alt="image" src="https://github.com/user-attachments/assets/2e05d907-5045-4298-a452-5f901719b05a" />
 
 A privilege escalation vulnerability has been discovered in the WordPress plugin **Import Users from CSV** (versions **≤ 1.3.1**).
 
 A user with a role that only has the `create_users` capability (not an administrator) can escalate privileges to WordPress site administrator.
 
-The vendor was notified on **18.07.2026**, no response was received.  
+The vendor was notified 3 months ago, no response was received.  
 A CVE request was submitted to **Wordfence Threat Intelligence**.
-
-No PoC is published.
 
 ---
 
@@ -27,6 +32,7 @@ The plugin allows importing users from a CSV file.
 During import, it assigns roles via the `role` column and arbitrary user meta via any CSV columns — including the sensitive `wp_capabilities` meta key.
 
 Due to missing authorization checks, a user with a role that only has `create_users` can:
+<img width="1113" height="597" alt="image" src="https://github.com/user-attachments/assets/9f8c605a-6726-44fa-96c2-975a28b96915" />
 
 1. Create a new administrator by specifying `role=administrator` in the CSV.
 2. Overwrite the capabilities of an existing user, including user ID 1, by injecting a `wp_capabilities` meta value.
@@ -114,19 +120,12 @@ Look for:
 - Changes to the `wp_capabilities` meta key on existing users.
 - CSV imports performed by users without administrator rights.
 - Unusual activity around user import pages.
-
 ---
 
 ## References
 
 - Wordfence Threat Intelligence — CVE request submitted.
 - NVD — CVE not yet assigned.
-
----
-
-## Credits
-
-Research by **infoseclab.ru**
 
 ---
 
