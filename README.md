@@ -1,4 +1,4 @@
-# Import Users from CSV <= 1.3.1 — Privilege Escalation (0-day)
+# Import Users from CSV <= 1.3.1 - Privilege Escalation (0-day)
 
 **Status:** 0-day, no patch available  
 **Type:** Missing Authorization / Improper Privilege Management  
